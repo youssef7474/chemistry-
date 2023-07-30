@@ -1,0 +1,28 @@
+.background-svg {
+    position: relative;
+    background-image: url('../../assets/aboutus.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.background-svg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.text-landing {
+    position: relative;
+    z-index: 1;
+    color:white;
+}
+
+@media (max-width:720px)
+{
+    .text-landing{
+        padding-top: 70px;
+    }
+}

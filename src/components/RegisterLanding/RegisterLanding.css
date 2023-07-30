@@ -1,0 +1,43 @@
+
+.background-svg-register {
+    position: relative;
+    background-image: url('../../assets/yellow-background-7774948_1280.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.background-svg-register::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.text-landing-register {
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+    color:white;
+    text-align: center;
+
+}
+
+.text-landing-register h1 {
+    font-size: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.text-landing-register h1:hover{
+    color: white;
+}
+
+
+@media (max-width:720px)
+{
+    .text-landing{
+        padding-top: 70px;
+    }
+}

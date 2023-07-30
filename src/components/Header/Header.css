@@ -1,0 +1,26 @@
+h1{
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+h1:hover{
+    color: var(--lightGreen)
+}
+
+@media (max-width:720px)
+{
+    .responav{
+        flex-direction: column;
+    }
+    .respoLogo
+    {
+        margin-bottom: 15px;
+    }
+    .respolinks{
+        gap: 18px;
+    }
+}
+.respolinks a.active{
+    color: var(--lightGreen);
+}
